@@ -11,6 +11,9 @@ import java.math.BigDecimal;
 @Entity
 @Table(name = "orderdetails")
 public class OrderDetail {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     @Column(name = "unitprice")
     private BigDecimal unitprice;
     @Column(name = "quantity")

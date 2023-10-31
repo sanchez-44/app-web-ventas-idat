@@ -18,8 +18,8 @@ public class Supplier {
     private String companyname;
     @Column(name = "contactname")
     private String contactname;
-    @Column(name = "contacttittle")
-    private String contacttittle;
+    @Column(name = "contacttitle")
+    private String contacttitle;
     @Column(name = "address")
     private String address;
     @Column(name = "city")
